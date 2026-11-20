@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    @apply bg-ink-950 text-fog-50 font-sans;
+    overflow-x: hidden;
+  }
+  ::selection {
+    background: #c6f24e;
+    color: #07090c;
+  }
+  h1, h2, h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  :focus-visible {
+    outline: 2px solid #c6f24e;
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: #07090c; }
+  ::-webkit-scrollbar-thumb { background: #272e39; border-radius: 8px; }
+  ::-webkit-scrollbar-thumb:hover { background: #3a4350; }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-[1240px] px-5 sm:px-8;
+  }
+
+  .eyebrow {
+    @apply font-mono text-[11px] uppercase tracking-[0.18em] text-fog-400;
+  }
+
+  .h-section {
+    @apply font-display text-[2.4rem] sm:text-5xl lg:text-[3.6rem] font-bold leading-[0.98] tracking-tightest text-fog-50;
+  }
+
+  .panel {
+    @apply relative rounded-[22px] bg-ink-900 ring-1 ring-inset ring-white/[0.07];
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-md border border-white/[0.08] bg-white/[0.03] px-2 py-1 font-mono text-[11px] text-fog-200;
+  }
+
+  .btn-signal {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-signal px-6 py-3 text-sm font-semibold text-ink-950 transition-all duration-200 hover:bg-signal-soft hover:shadow-[0_8px_30px_-6px_rgba(198,242,78,0.55)] active:scale-[0.97];
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-fog-50 transition-all duration-200 hover:border-white/35 hover:bg-white/[0.04] active:scale-[0.97];
+  }
+
+  .link-arrow {
+    @apply inline-flex items-center gap-1.5 text-sm font-medium text-fog-200 transition-colors hover:text-signal;
+  }
+
+  .skip-link {
+    position: absolute;
+    left: 16px;
+    top: -60px;
+    z-index: 100;
+    padding: 10px 16px;
+    border-radius: 10px;
+    background: #c6f24e;
+    color: #07090c;
+    font-weight: 600;
+    transition: top 0.2s;
+  }
+  .skip-link:focus {
+    top: 16px;
+  }
+}
+
+/* Film grain over everything — breaks the flat digital look. */
+.grain {
+  position: fixed;
+  inset: -50%;
+  width: 200%;
+  height: 200%;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.045;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Dotted grid used behind sections */
+.dot-grid {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* Spotlight cards: border + glow follow the cursor (set --mx/--my from JS). */
+.spotlight {
+  --mx: 50%;
+  --my: 50%;
+}
+.spotlight::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: radial-gradient(420px circle at var(--mx) var(--my), rgba(198, 242, 78, 0.55), transparent 45%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.35s;
+  pointer-events: none;
+}
+.spotlight::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(520px circle at var(--mx) var(--my), rgba(198, 242, 78, 0.06), transparent 40%);
+  opacity: 0;
+  transition: opacity 0.35s;
+  pointer-events: none;
+}
+.spotlight:hover::before,
+.spotlight:hover::after {
+  opacity: 1;
+}
+
+/* Outline display text */
+.text-outline {
+  /* Fill with the page colour and paint the stroke underneath it, so overlapping
+     glyph contours (e.g. the stem inside "D") stay hidden. */
+  color: #07090c;
+  -webkit-text-stroke: 3px rgba(238, 241, 244, 0.38);
+  paint-order: stroke fill;
+}
+
+.marquee-mask {
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

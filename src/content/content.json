@@ -1,0 +1,610 @@
+{
+  "meta": {
+    "siteTitle": "Pasindu Dilakshana — Network Engineer",
+    "description": "Computer Networks undergraduate at NSBM Green University building secure, reliable networks and the web tools around them."
+  },
+  "profile": {
+    "name": "Pasindu Dilakshana",
+    "shortName": "Pasindu",
+    "headline": "I design networks that stay up, and build the tools that keep them honest.",
+    "roles": [
+      "routing & switching",
+      "network security",
+      "vlan design",
+      "full-stack web",
+      "cloud & sdn",
+      "ui / ux"
+    ],
+    "tagline": "BSc (Hons) Computer Networks · NSBM Green University",
+    "photo": "/profile.jpeg",
+    "cv": "/Pasindu_Dilakshana_CV.pdf",
+    "location": "Matara, Sri Lanka",
+    "email": "pasindudilakshana57@gmail.com",
+    "available": true,
+    "availabilityText": "Open to internships & junior roles",
+    "about": [
+      "I'm Pasindu, a final-year Computer Networks undergraduate at NSBM Green University. I like knowing exactly how a packet gets from a laptop in Matara to a server on the other side of the world, and what can go wrong on the way.",
+      "Most of my learning happens in labs: Cisco Packet Tracer topologies, Wireshark captures, VLAN and ACL configs, firewall rules. I pair that with web development, so the networks I design usually come with a dashboard or tool that makes them easier to run.",
+      "Right now I'm focused on network security and cloud/SDN, and I'm looking for an internship where I can work on real infrastructure."
+    ],
+    "facts": [
+      {
+        "label": "University",
+        "value": "NSBM Green University"
+      },
+      {
+        "label": "Degree",
+        "value": "BSc (Hons) Computer Networks"
+      },
+      {
+        "label": "Focus",
+        "value": "Network security · Cloud / SDN"
+      },
+      {
+        "label": "Based in",
+        "value": "Matara, Sri Lanka"
+      }
+    ],
+    "currently": "Final year at NSBM, going deeper into network security and cloud / SDN."
+  },
+  "socials": [
+    {
+      "platform": "github",
+      "label": "GitHub",
+      "url": "https://github.com/Pasindu-dilakshana"
+    },
+    {
+      "platform": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/pasindu-dilakshana-314b8429b/"
+    },
+    {
+      "platform": "email",
+      "label": "Email",
+      "url": "mailto:pasindudilakshana57@gmail.com"
+    }
+  ],
+  "stats": [
+    {
+      "id": "s1",
+      "label": "Projects shipped",
+      "source": "projects",
+      "value": 0,
+      "suffix": "+"
+    },
+    {
+      "id": "s2",
+      "label": "Lab topologies built",
+      "source": "manual",
+      "value": 30,
+      "suffix": "+"
+    },
+    {
+      "id": "s3",
+      "label": "Certifications",
+      "source": "certifications",
+      "value": 0,
+      "suffix": ""
+    },
+    {
+      "id": "s4",
+      "label": "Achievements logged",
+      "source": "achievements",
+      "value": 0,
+      "suffix": ""
+    }
+  ],
+  "techStack": [
+    {
+      "name": "Cisco IOS",
+      "icon": "SiCisco"
+    },
+    {
+      "name": "Packet Tracer",
+      "icon": "network"
+    },
+    {
+      "name": "Wireshark",
+      "icon": "SiWireshark"
+    },
+    {
+      "name": "Linux",
+      "icon": "SiLinux"
+    },
+    {
+      "name": "Python",
+      "icon": "SiPython"
+    },
+    {
+      "name": "React",
+      "icon": "SiReact"
+    },
+    {
+      "name": "Node.js",
+      "icon": "SiNodedotjs"
+    },
+    {
+      "name": "MySQL",
+      "icon": "SiMysql"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "SiPostgresql"
+    },
+    {
+      "name": "Docker",
+      "icon": "SiDocker"
+    },
+    {
+      "name": "Git",
+      "icon": "SiGit"
+    },
+    {
+      "name": "Java",
+      "icon": "SiOpenjdk"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "SiTailwindcss"
+    },
+    {
+      "name": "VMware",
+      "icon": "SiVmware"
+    }
+  ],
+  "skills": [
+    {
+      "id": "k1",
+      "category": "Networking",
+      "icon": "network",
+      "items": [
+        {
+          "name": "TCP/IP & subnetting (VLSM)",
+          "level": 3
+        },
+        {
+          "name": "VLANs & inter-VLAN routing",
+          "level": 3
+        },
+        {
+          "name": "Switching — STP, VTP, EtherChannel",
+          "level": 2
+        },
+        {
+          "name": "Routing — OSPF, RIP, static",
+          "level": 2
+        },
+        {
+          "name": "BGP fundamentals",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "category": "Security",
+      "icon": "lock",
+      "items": [
+        {
+          "name": "ACLs & firewall rules",
+          "level": 3
+        },
+        {
+          "name": "Traffic analysis with Wireshark",
+          "level": 3
+        },
+        {
+          "name": "Threat detection (SQLi, XSS, brute force)",
+          "level": 2
+        },
+        {
+          "name": "VPN & tunnelling",
+          "level": 2
+        },
+        {
+          "name": "Zero Trust & security models",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "category": "Development",
+      "icon": "code",
+      "items": [
+        {
+          "name": "React, Vite & Tailwind",
+          "level": 3
+        },
+        {
+          "name": "Node.js / Express APIs",
+          "level": 2
+        },
+        {
+          "name": "SQL — MySQL, PostgreSQL",
+          "level": 2
+        },
+        {
+          "name": "Python scripting",
+          "level": 2
+        },
+        {
+          "name": "Java (OOP, JSP, JDBC)",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "id": "k4",
+      "category": "Tools & platforms",
+      "icon": "wrench",
+      "items": [
+        {
+          "name": "Cisco Packet Tracer",
+          "level": 3
+        },
+        {
+          "name": "Linux (Ubuntu, CentOS)",
+          "level": 2
+        },
+        {
+          "name": "Docker & Docker Compose",
+          "level": 2
+        },
+        {
+          "name": "Git & GitHub",
+          "level": 3
+        },
+        {
+          "name": "VMware / VirtualBox, GNS3",
+          "level": 2
+        }
+      ]
+    }
+  ],
+  "alsoFamiliar": [
+    "OSPF",
+    "NAT/PAT",
+    "DHCP",
+    "DNS",
+    "HTTP/S",
+    "SSH",
+    "SNMP",
+    "IPv6",
+    "MPLS",
+    "GNS3",
+    "Scapy",
+    "JWT"
+  ],
+  "projects": [
+    {
+      "id": "p-netflow",
+      "title": "NetFlow",
+      "subtitle": "Visual VLSM subnet engine",
+      "category": "Networking",
+      "status": "Completed",
+      "year": "",
+      "summary": "Plans VLSM subnets for a whole site and writes the Cisco IOS config for the L3 switch and edge router.",
+      "description": "A responsive web app that automates Variable Length Subnet Masking and network planning. Enter departments and host counts; NetFlow sorts them, allocates address blocks with power-of-two logic and capacity guards, and generates production-ready Cisco IOS CLI scripts for Layer 3 switches and edge routers. Built to cut out the manual calculation errors that creep into subnet plans.",
+      "highlights": [
+        "Allocates blocks largest-first with overflow guards",
+        "Generates copy-ready IOS config for switches and routers",
+        "Visual address-space map of every subnet"
+      ],
+      "tags": [
+        "React",
+        "Tailwind CSS",
+        "VLSM",
+        "Cisco IOS"
+      ],
+      "github": "https://github.com/Pasindu-dilakshana/NetFlow-VLSM-Architect",
+      "demo": "https://netflowvlsmarchitect.vercel.app/",
+      "image": "",
+      "icon": "tree",
+      "accent": "lime",
+      "featured": true,
+      "visible": true
+    },
+    {
+      "id": "p-netmon",
+      "title": "Network Monitoring Dashboard",
+      "subtitle": "Python traffic monitor",
+      "category": "Networking",
+      "status": "In progress",
+      "year": "",
+      "summary": "Watches live traffic with Scapy and SNMP, reports bandwidth and flags anomalies from the CLI.",
+      "description": "A Python tool that uses Scapy and SNMP to monitor network traffic, produce bandwidth reports, detect anomalies and show the results in a simple CLI dashboard. Alerts are logged to a local database for later review.",
+      "highlights": [
+        "Packet capture with Scapy, device polling with SNMP",
+        "Anomaly alerts logged to a local database"
+      ],
+      "tags": [
+        "Python",
+        "Scapy",
+        "SNMP",
+        "CLI"
+      ],
+      "github": "https://github.com/Pasindu-dilakshana",
+      "demo": "",
+      "image": "",
+      "icon": "pulse",
+      "accent": "sky",
+      "featured": false,
+      "visible": true
+    },
+    {
+      "id": "p-mirissa",
+      "title": "Mirissa Nature Kayaking",
+      "subtitle": "Tourism website",
+      "category": "Web",
+      "status": "Completed",
+      "year": "",
+      "summary": "A booking-focused site for lagoon and mangrove kayaking tours in Mirissa.",
+      "description": "A modern, responsive website for a kayaking business in Mirissa. It presents tour packages, booking details and the lagoon, mangrove and wildlife experiences in a clear, mobile-friendly layout, modelled on real guided-tour operators along the southern coast.",
+      "highlights": [
+        "Tour packages with clear booking details",
+        "Fully responsive, mobile-first layout"
+      ],
+      "tags": [
+        "Web",
+        "Frontend",
+        "Tourism"
+      ],
+      "github": "https://github.com/Pasindu-dilakshana/mirissa-nature-kayaking",
+      "demo": "https://mirissa-nature-kayaking.vercel.app/",
+      "image": "",
+      "icon": "waves",
+      "accent": "sky",
+      "featured": false,
+      "visible": true
+    },
+    {
+      "id": "p-lima",
+      "title": "LIMA Fashion Store",
+      "subtitle": "E-commerce web app",
+      "category": "Web",
+      "status": "Completed",
+      "year": "",
+      "summary": "An online clothing store with product browsing, category filters and a fast, responsive UI.",
+      "description": "A modern e-commerce web application with product browsing, category filtering and a responsive interface, built for a smooth shopping experience with a clean design and quick load times.",
+      "highlights": [
+        "Category filtering and product browsing",
+        "Responsive storefront tuned for mobile"
+      ],
+      "tags": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "github": "https://github.com/Pasindu-dilakshana/LIMA_store",
+      "demo": "https://aura-store-six.vercel.app/",
+      "image": "",
+      "icon": "bag",
+      "accent": "coral",
+      "featured": false,
+      "visible": true
+    },
+    {
+      "id": "p-library",
+      "title": "Library Management System",
+      "subtitle": "Full-stack Java web app",
+      "category": "Software",
+      "status": "In progress",
+      "year": "",
+      "summary": "Book, member and lending management with an admin dashboard and search.",
+      "description": "A library management web application built with Java, JSP and JDBC on MySQL. It covers book management, member registration, the borrow/return workflow and an admin dashboard with search.",
+      "highlights": [
+        "Borrow / return workflow with member records",
+        "Admin dashboard with search"
+      ],
+      "tags": [
+        "Java",
+        "JSP",
+        "JDBC",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "github": "https://github.com/Pasindu-dilakshana",
+      "demo": "",
+      "image": "",
+      "icon": "book",
+      "accent": "amber",
+      "featured": false,
+      "visible": true
+    },
+    {
+      "id": "p-birthday",
+      "title": "Birthday Surprise",
+      "subtitle": "Interactive greeting site",
+      "category": "Web",
+      "status": "Completed",
+      "year": "",
+      "summary": "A shareable, animated birthday page with personal messages and interactive moments.",
+      "description": "An interactive birthday website that turns a greeting into a small experience: animations, personal messages and playful visual elements, all delivered through a single shareable link.",
+      "highlights": [
+        "Animated, personalised greeting flow",
+        "Shareable via one link"
+      ],
+      "tags": [
+        "HTML/CSS",
+        "JavaScript",
+        "Animation"
+      ],
+      "github": "https://github.com/Pasindu-dilakshana/Birthday-site",
+      "demo": "https://birthday-surprise-site-one.vercel.app/",
+      "image": "",
+      "icon": "sparkle",
+      "accent": "violet",
+      "featured": false,
+      "visible": true
+    },
+    {
+      "id": "p-siem",
+      "title": "Mini SIEM — Traffic Monitor",
+      "subtitle": "Final-year project · containerised threat detection",
+      "category": "Security",
+      "status": "Completed",
+      "year": "2026",
+      "summary": "Detects SQLi, XSS, brute-force and path-traversal attempts in real time and bans the source IP automatically.",
+      "description": "A containerised mini SIEM / web-traffic monitoring system. A React + Vite + Tailwind dashboard sits on a Node.js/Express backend with PostgreSQL, all deployed with Docker Compose. It detects SQL injection, XSS, brute-force and path-traversal attempts in real time, runs a honeypot, and automatically bans offending IP addresses.",
+      "highlights": [
+        "Real-time detection of SQLi, XSS, brute force, path traversal",
+        "Honeypot endpoints and automatic IP banning",
+        "Whole stack ships with one Docker Compose file"
+      ],
+      "tags": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "github": "",
+      "demo": "",
+      "image": "",
+      "icon": "fingerprint",
+      "accent": "lime",
+      "featured": false,
+      "visible": false
+    },
+    {
+      "id": "p-guardian",
+      "title": "GuardianAI",
+      "subtitle": "AI-aware network security platform",
+      "category": "Security",
+      "status": "In progress",
+      "year": "2026",
+      "summary": "Captures traffic, analyses content with an LLM and redacts sensitive data instead of blocking it outright.",
+      "description": "A network security SaaS concept. A React front end with Three.js visuals talks to a Python FastAPI backend (SQLAlchemy, WebSocket live updates). Scapy captures packets and an LLM performs semantic content analysis, with per-company model training and dynamic data redaction rather than blanket blocking.",
+      "highlights": [
+        "Live packet capture with Scapy + WebSocket updates",
+        "Dynamic redaction instead of blanket blocking"
+      ],
+      "tags": [
+        "React",
+        "Three.js",
+        "FastAPI",
+        "Scapy"
+      ],
+      "github": "",
+      "demo": "",
+      "image": "",
+      "icon": "eye",
+      "accent": "violet",
+      "featured": false,
+      "visible": false
+    },
+    {
+      "id": "p-ceylon",
+      "title": "Ceylon Trails",
+      "subtitle": "Sri Lanka travel guide & booking platform",
+      "category": "Web",
+      "status": "In progress",
+      "year": "2026",
+      "summary": "Explore Sri Lankan destinations, read community stories and book local guides.",
+      "description": "A travel guide and booking platform for Sri Lanka built with React, Node.js and MySQL. It includes an Explore section with category and detail pages, a Guides feature with listing, detail and booking pages, and auth-gated Community Stories with JWT and image uploads.",
+      "highlights": [
+        "Explore, Guides and Community Stories features",
+        "JWT auth with image uploads"
+      ],
+      "tags": [
+        "React",
+        "Node.js",
+        "MySQL",
+        "JWT"
+      ],
+      "github": "",
+      "demo": "",
+      "image": "",
+      "icon": "globe",
+      "accent": "amber",
+      "featured": false,
+      "visible": false
+    }
+  ],
+  "achievements": [
+    {
+      "id": "a-cisco-pt",
+      "title": "Getting Started with Cisco Packet Tracer",
+      "type": "Certification",
+      "issuer": "Cisco Networking Academy",
+      "date": "",
+      "description": "Network simulation, basic network design, device configuration and troubleshooting in Cisco Packet Tracer.",
+      "tags": [
+        "Cisco",
+        "Networking"
+      ],
+      "credentialUrl": "",
+      "image": "",
+      "featured": true,
+      "visible": true
+    },
+    {
+      "id": "a-vlan",
+      "title": "Campus network design — A grade",
+      "type": "Academic",
+      "issuer": "NSBM Green University",
+      "date": "",
+      "description": "Led a team of four to design and simulate a campus network with 10+ VLANs, redundant links and wireless integration.",
+      "tags": [
+        "Team lead",
+        "VLAN",
+        "A grade"
+      ],
+      "credentialUrl": "",
+      "image": "",
+      "featured": true,
+      "visible": true
+    },
+    {
+      "id": "a-itsec",
+      "title": "IT Security Foundations: Network Security",
+      "type": "Certification",
+      "issuer": "",
+      "date": "",
+      "description": "Network security concepts, threat protection and day-to-day IT security operations.",
+      "tags": [
+        "Network security"
+      ],
+      "credentialUrl": "",
+      "image": "",
+      "featured": false,
+      "visible": true
+    },
+    {
+      "id": "a-webdesign",
+      "title": "Web Design for Beginners",
+      "type": "Certification",
+      "issuer": "University of Moratuwa — CODL",
+      "date": "",
+      "description": "Web design foundations through the Centre for Open & Distance Learning, University of Moratuwa.",
+      "tags": [
+        "Web design",
+        "Frontend"
+      ],
+      "credentialUrl": "",
+      "image": "",
+      "featured": false,
+      "visible": true
+    },
+    {
+      "id": "a-python",
+      "title": "Python for Beginners",
+      "type": "Certification",
+      "issuer": "University of Moratuwa — Dept. of CSE",
+      "date": "",
+      "description": "Python syntax, problem solving and core programming concepts.",
+      "tags": [
+        "Python"
+      ],
+      "credentialUrl": "",
+      "image": "",
+      "featured": false,
+      "visible": true
+    }
+  ],
+  "contact": {
+    "heading": "Have a network that needs building — or an internship that needs filling?",
+    "text": "Tell me about the role, the project, or the network problem you're stuck on. I read every message.",
+    "formEndpoint": "https://formsubmit.co/ajax/pasindudilakshana57@gmail.com"
+  }
+}
